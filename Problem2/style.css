@@ -1,0 +1,47 @@
+body{    
+    margin: 0;
+    padding: 0;
+    background-color: rgba(138,178,83,0.5);
+}
+
+header{
+    background-color: rgb(138, 178, 83);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: larger;
+    color: rgba(193, 34, 34, 0.912);
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    width: 75%;
+    margin: 15px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+h2{
+    background-color: rgba(138, 178, 83, 0.626);
+    text-decoration: underline;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.price{
+    float: right;
+}
+
+.desc{
+    font-style: italic;
+}

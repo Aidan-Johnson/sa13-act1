@@ -1,0 +1,30 @@
+body{    
+    margin: 0;
+    padding: 0;
+    background-color: rgba(204,204,255,0.5);
+}
+
+header{
+        background-color: rgba(102,102,153,0.5);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        font-size: larger;
+        text-align: center;
+        padding: 20px;
+}
+
+main{
+    width: 75%;
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+article{
+   margin-bottom: 50px;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+    padding: 10px;
+}

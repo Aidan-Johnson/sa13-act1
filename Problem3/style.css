@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(93, 119, 175, 0.605);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    margin: 15px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+ul{
+    list-style-type: none;
+    margin: 15px;
+    padding: 10px;
+}
+
+li{
+    
+    font-size: x-large;
+}
+
+nav,
+.nav-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(93, 119, 175);
+}
+
+.nav-links{
+    list-style: none;
+    gap: 30px;
+    font-size: x-large;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover{
+    color: rgb(220, 133, 83);
+    text-decoration: underline;
+    
+}
+
+.title{
+    text-align: center;
+    margin: 10px;
+}
+
+.desc{
+    font-size: smaller;
+    margin-left: 40px;
+    color: rgb(58, 58, 58);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.gallery-item:hover {
+    background-color: #ddd;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    border: #5d5d5d 4px solid;
+    margin: 10px auto;
+    padding: 10px;
+}
+
